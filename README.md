@@ -1,5 +1,5 @@
-# Starbs Hackathon
-:banana: Starbs hackathon y0
+# Recipe Book BackEnd
+
 
 ## Prerequisites
 * [Node.js](https://nodejs.org/en/) (Version 5 and up recommended)
@@ -20,10 +20,10 @@ npm install
 * Create your config.  There's a `config.json.example` file in the root.  Edit it to include all your values for the site and your OAuth information.  Save it as `config.json` and leave it in the root.
 
 * If you're using a local couchDB instance instead of a remote instance you can uncomment line 16 in the database helper file.
-[https://github.com/bkd705/starbs-hackathon/blob/master/server/helpers/db.js#L16](https://github.com/bkd705/starbs-hackathon/blob/master/server/helpers/db.js#L17-L20)
+[https://github.com/bkd705/recipe-book-backend/blob/master/server/helpers/db.js#L16](https://github.com/bkd705/recipe-book-backend/blob/master/server/helpers/db.js#L17-L20)
 
 * You will also need to comment out lines 17-20.
-[https://github.com/bkd705/starbs-hackathon/blob/master/server/helpers/db.js#L17-L20](https://github.com/bkd705/starbs-hackathon/blob/master/server/helpers/db.js#L17-L20)
+[https://github.com/bkd705/recipe-book-backend/blob/master/server/helpers/db.js#L17-L20](https://github.com/bkd705/recipe-book-backend/blob/master/server/helpers/db.js#L17-L20)
 
 * Start it up.
 ```
